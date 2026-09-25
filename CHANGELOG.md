@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.1] - 2026-09-25
+
+- Fixed compatibility with Flutter < 3.27 by replacing `withValues()` with `withOpacity()`.
+
 ## [1.0.0] - 2026-09-25
 
 - Initial release of `name_screen_flutter`.

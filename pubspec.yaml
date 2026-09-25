@@ -1,6 +1,6 @@
 name: name_screen_flutter
 description: A lightweight Flutter library to display a floating badge showing the current screen/route name with 1-tap clipboard copy, draggable positioning, custom styling, and seamless Navigator 1.0 / GoRouter support.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/tuan1996v2/name_screen_flutter
 repository: https://github.com/tuan1996v2/name_screen_flutter
 
