@@ -104,13 +104,13 @@ class _NameScreenState extends State<NameScreen> {
                     borderRadius: BorderRadius.circular(widget.config.borderRadius),
                     border: Border.all(
                       color: _isCopied
-                          ? widget.config.copiedTextColor.withValues(alpha: 0.3)
-                          : widget.config.textColor.withValues(alpha: 0.15),
+                          ? widget.config.copiedTextColor.withOpacity(0.3)
+                          : widget.config.textColor.withOpacity(0.15),
                       width: 0.8,
                     ),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.black.withValues(alpha: 0.3),
+                        color: Colors.black.withOpacity(0.3),
                         blurRadius: 4,
                         offset: const Offset(0, 2),
                       ),
