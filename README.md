@@ -17,7 +17,7 @@
 > **Mẹo:** Khi bắt đầu hoặc bảo trì một dự án Flutter, bạn chỉ cần copy nguyên câu prompt dưới đây và gửi cho AI Assistant (Cursor, Antigravity, Claude Code, GitHub Copilot, Windsurf):
 
 ```text
-Tích hợp package name_screen_flutter từ git https://github.com/tuan1996v2/name_screen_flutter.git vào dự án này: thêm vào dependencies trong pubspec.yaml, bọc MaterialApp.builder bằng NameScreen(), cắm NameScreenObserver() vào observers của Navigator/GoRouter, sau đó chạy flutter pub get.
+Tích hợp package name-screen-flutter từ git https://github.com/tuan1996v2/name-screen-flutter.git vào dự án này: thêm vào dependencies trong pubspec.yaml, bọc MaterialApp.builder bằng NameScreen(), cắm NameScreenObserver() vào observers của Navigator/GoRouter, sau đó chạy flutter pub get.
 ```
 
 ---
@@ -47,9 +47,9 @@ Thêm thư viện vào file `pubspec.yaml` của bạn:
 dependencies:
   flutter:
     sdk: flutter
-  name_screen_flutter:
+  name-screen-flutter:
     git:
-      url: https://github.com/tuan1996v2/name_screen_flutter.git
+      url: https://github.com/tuan1996v2/name-screen-flutter.git
       ref: main
 ```
 
@@ -67,7 +67,7 @@ flutter pub get
 ```dart
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:name_screen_flutter/name_screen_flutter.dart';
+import 'package:name-screen-flutter/name-screen-flutter.dart';
 
 final GoRouter _router = GoRouter(
   initialLocation: '/',
@@ -118,7 +118,7 @@ class MyApp extends StatelessWidget {
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:name_screen_flutter/name_screen_flutter.dart';
+import 'package:name-screen-flutter/name-screen-flutter.dart';
 
 void main() {
   runApp(const MyApp());
